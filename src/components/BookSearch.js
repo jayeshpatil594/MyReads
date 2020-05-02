@@ -15,7 +15,7 @@ class BookSearch extends Component {
   getBooks = event => {
     const query = event.target.value
 
-    this.setState({
+     this.setState({
       query
     })
 
@@ -38,7 +38,7 @@ class BookSearch extends Component {
         <div className="search-books-bar">
           <Link to='/' className="close-search">Close</Link>
           <div className="search-books-input-wrapper">
-            <input type="text" placeholder="Search by Title or Author" value={query} onChange={this.getBooks}/>
+            <input type="text" placeholder="Search by Title or Author" value={query} onChange={this.getBooks} autoFocus/>
           </div>
         </div>
         <div className="search-books-results">
