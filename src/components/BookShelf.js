@@ -3,12 +3,12 @@ import Book from './Book'
 import PropTypes from 'prop-types'
 
 const BookShelf = props => {
-    const {books, handleChangeShelf} = props
+    const {books, handleShelfChange} = props
 
     return(
-        <ol>
+        <ol className="books-grid">
             {books.map(book =>(
-                <Book key={book.id} book={book} books={books} handleChangeShelf={handleChangeShelf}/>
+                <Book key={book.id} book={book} books={books} handleShelfChange={handleShelfChange}/>
             ))}
         </ol>
     )
