@@ -12,7 +12,7 @@ class ChangeShelf extends Component{
         let currentShelf = 'none';
 
         for(let item of books){
-            if(item.id == book.id){
+            if(item.id === book.id){
                 currentShelf = item.shelf;
                 break;
             }
