@@ -5,7 +5,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Project Purpose
 
-This is the first project for the Udacity React Nanodegree.I built the React componenets to populate the main page with three shelves that users are able to move the books between shelves. The seaech page allows to search for books.
+This is the first project for the Udacity React Nanodegree.I built the React components to populate the main page with three shelves that users are able to move the books between shelves. The seaech page allows to search for books.
 
 Note: The backend API is limited to a fixed set of [search terms](#search-terms) -- see below for valid search options_
 
