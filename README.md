@@ -17,10 +17,10 @@ The project uses [Node.js](https://nodejs.org/en/) and [Create React App](https:
 
 1. Clone or download this repository ``git clone https://github.com/jayeshpatil594/myreads.git``
 
-2. npm install
+2. ``npm install``
 
-3. npm start
+3. ``npm start``
 
-4. A new browser window should automatically open displaying the app. If it doesn't, navigate to [http://localhost:3000/](http://localhost:3000/) in your browser
+4. A new browser window should automatically open displaying the app. If it doesn't, navigate to ``[http://localhost:3000/](http://localhost:3000/)`` in your browser
 
 
