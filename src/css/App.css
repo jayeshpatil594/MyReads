@@ -191,37 +191,5 @@ body,
   text-align: center;
 }
 
-/* not found page */
-.not-found-title {
-  color: #507461;
-  font: bold 6em/1 'Old Standard TT', serif;
-  margin: 30px auto;
-  width: 50%;
-}
-
-.not-found-img {
-  margin: auto;
-  width: 50%;
-}
-
-.not-found-img img {
-  width: 100%;
-}
-
-.home-link {
-  margin: 30px auto;
-  width: 50%;
-}
-
-.home-link a {
-  color: #6aaac5;
-  font: bold 4em/1 'Old Standard TT', serif;
-  text-decoration: none;
-}
-
-.home-link a:hover {
-  color: #507461;
-  font-size: 5em;
-}
 
 /* Colors from https://www.design-seeds.com/in-nature/flora/color-flora-51/ */
