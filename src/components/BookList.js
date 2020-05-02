@@ -7,9 +7,9 @@ const BookList = props => {
     const {books, handleChangeShelf} = props
 
     const shelfTypes = [
-        { type: 'currentlyReding', name: 'Currently Reading'},
-        { type: 'wantToRead', name: 'Want to Read'},
-        { type: 'read', name: 'Read'}
+        { type: 'currentlyReding', title: 'Currently Reading'},
+        { type: 'wantToRead', title: 'Want to Read'},
+        { type: 'read', title: 'Read'}
     ]
 
     return(
@@ -18,7 +18,7 @@ const BookList = props => {
                 const shelfBooks = books.filter(book => book.shelf == shelf.type)
                 return(
                     <div className="bookshelf" key={shelfIndex}>
-                        <h2 className="bookshelf-title">{shelf.name}</h2>
+                        <h2 className="bookshelf-title">{shelf.title}</h2>
                         <div className="bookshelf-books">
                             <BookShelf books={shelfBooks} handleChangeShelf={handleChangeShelf}/>
                         </div>
